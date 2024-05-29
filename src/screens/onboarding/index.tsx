@@ -20,20 +20,20 @@ const Onboarding: React.FC<IOnboardingProps> = () => {
     <>
       <Container>
         <ImageOnboarding
-          source={require('../../assets/images/image-onboarding.png')}
+          source={require('../../assets/images/image-onboarding.jpg')}
         />
       </Container>
       <ContainerBody>
         <Spacer vertical={24} />
-        <Header>Comece já a cozinhar !!</Header>
+        <Header>Tela de onboarding</Header>
+        <Header>-- Ignore a imagem acima--</Header>
         <Spacer vertical={24} />
-        <Subheader>Receitas fáceis e práticas </Subheader>
-        <Subheader> para cozinhar melhor</Subheader>
+        <Subheader>Insira aqui um subtitulo maneiro </Subheader>
         <Spacer vertical={48} />
         <Botao
           color={Colors.primary}
           textColor="#fff"
-          text="Ver Receitas"
+          text="Próximo"
           onPress={() => navigate('Home' as never)}
         />
       </ContainerBody>

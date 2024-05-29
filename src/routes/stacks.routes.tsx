@@ -21,11 +21,11 @@ const StackRoutes: React.FC = () => {
         options={{headerShown: false}}
       />
       <Screen name="Home" component={Home} options={{headerShown: false}} />
-      <Screen
+      {/* <Screen
         name="Detalhes"
         component={Detalhes}
         options={{headerShown: false}}
-      />
+      /> */}
     </Navigator>
   );
 };

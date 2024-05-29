@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import {Colors} from '../../styles/colors';
+import { Colors } from '../../styles/colors';
 
 export const Container = styled.View`
   background-color: #fff;
@@ -15,7 +15,8 @@ export const ContainerBody = styled.View`
 `;
 
 export const ImageOnboarding = styled.Image`
-  width: 110%;
+width: 100%;
+height: 545px;
 `;
 
 export const Header = styled.Text`
