@@ -2,11 +2,12 @@ import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import Onboarding from '../screens/onboarding';
 import Home from '../screens/home';
-import Detalhes from '../screens/detalhes';
+import Player from '../screens/player';
 
 export type StackList = {
   Onboarding: undefined;
   Home: undefined;
+  Player: undefined;
   Detalhes: {id: number};
 };
 
@@ -21,11 +22,11 @@ const StackRoutes: React.FC = () => {
         options={{headerShown: false}}
       />
       <Screen name="Home" component={Home} options={{headerShown: false}} />
-      {/* <Screen
-        name="Detalhes"
-        component={Detalhes}
-        options={{headerShown: false}}
-      /> */}
+      <Screen
+        name="Player"
+        component={Player}
+        // options={{headerShown: false}}
+      />
     </Navigator>
   );
 };

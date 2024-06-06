@@ -26,7 +26,6 @@ const Onboarding: React.FC<IOnboardingProps> = () => {
       <ContainerBody>
         <Spacer vertical={24} />
         <Header>Tela de onboarding</Header>
-        <Header>-- Ignore a imagem acima--</Header>
         <Spacer vertical={24} />
         <Subheader>Insira aqui um subtitulo maneiro </Subheader>
         <Spacer vertical={48} />
