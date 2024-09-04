@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 
 import {Container, Title} from './styles';
 import Video from 'react-native-video';
+// import Imagem from '../../assets/images/pluto_tv.jpg';
 
 interface IPlayerProps {}
 
@@ -16,6 +17,7 @@ const Player: React.FC<IPlayerProps> = () => {
         source={{uri: 'http://168.232.56.70:8000'}}
         style={{width: '100%', height: 200}}
         audioOutput="earpiece"
+        controls={true}
       />
     </Container>
   );
