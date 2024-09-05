@@ -7,7 +7,7 @@ import Player from '../screens/player';
 export type StackList = {
   Onboarding: undefined;
   Home: undefined;
-  Player: undefined;
+  Player: {link: number};
   Detalhes: {id: number};
 };
 

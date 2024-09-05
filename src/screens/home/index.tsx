@@ -13,7 +13,7 @@ const Home: React.FC<IHomeProps> = () => {
     <Container>
       <Title>Tela Home</Title>
       <Spacer vertical={50} />
-      <CardCapa onPress={() => navigate('Player' as never)} />
+      <CardCapa />
     </Container>
   );
 };
